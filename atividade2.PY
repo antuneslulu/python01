@@ -1,0 +1,5 @@
+nome = input("por favor digite seu nome:")
+print("ok seu nome,"+ nome)
+ano = input("por favor digite um ano:")
+print("ano confirmado,"+ano)
+print(f"{nome} é uma pessoa muito linda  {ano}, uma vez{nome}, acordou cedo com um barrulho de vento na janela")
