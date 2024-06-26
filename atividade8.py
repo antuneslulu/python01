@@ -1,0 +1,5 @@
+nome = input("digite seu nome")
+print("Oi"+ nome)
+ano = input("digite seu ano")
+print("voce nascu esse ano?:"+ano)
+print(f"ola{nome},voce fará{2024 - ano} anos no final de 2024")
