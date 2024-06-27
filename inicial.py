@@ -45,3 +45,9 @@ peso = float(input("qual seu peso?"))
 imc = peso/(altura/100)**2
 
 print(f"o IMC é: {imc}")
+
+
+#estrutura cindicinal
+idade = 18
+if idade>=18:
+    print("voce é maior de idade")
