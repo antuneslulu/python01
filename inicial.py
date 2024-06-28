@@ -51,3 +51,24 @@ print(f"o IMC é: {imc}")
 idade = 18
 if idade>=18:
     print("voce é maior de idade")
+
+#operadors de comparação
+numero = int(input("entre com um numero:"))
+
+if numero < 0:
+    print("esse número é negativo")
+
+if numero >0:
+    print("esse numero é positivo")
+
+if numero ==0:
+    print("o numero é 0")
+
+
+a = 3
+condicao = a < 5 
+print(condicao)
+if condicao:
+    print("a é menor que 5")
+    
+    
