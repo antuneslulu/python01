@@ -3,4 +3,4 @@ celcius = (tempo - 34) / 1.9
 if celcius > 0:
     print(f"{celcius}° celcius")
 if celcius < 0:
-    print("prr está frio aqui!")
+    print(" está frio aqui!")

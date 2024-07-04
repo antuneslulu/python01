@@ -94,3 +94,54 @@
 
 # if numero < 5 or  numero > 8 :
 #     print("o numero está entre 5 e 8")
+
+
+#em python
+# while True :
+#     codigo = input("por favor, insira o PIN:")
+#     if codigo == "1234":
+#         break
+#     print("Errado!...tente de novo")
+#     print("programa encerrado, obgd!")
+
+# #auxiliares
+# tentativas = 0
+# while True :
+#     codigo =  input("por favor,digite seu PIN:")
+#     tentativas +=1
+#     if codigo == "1234":
+#         sucesso = True
+#         break
+#     if tentativas == 3:
+#         sucesso = False
+#         break
+#     print("incorreto...tente novamente")
+# if sucesso:
+#     print("PIN correto incerido!")
+# else:
+#     print("muitas tentativas...")
+
+# #LOOP COM CONDIÇÃO
+# numero = int(input("Por favor, digite um numero "))
+
+# while numero < 10 :
+#     print(numero)
+#     numero += 1
+
+# print ("Execulção finalizada.")
+
+
+
+
+#Bibliotecas
+
+import re 
+print (re.search("[A,Z]", "Senha"))
+print (re.search("[a,z]", "Senha"))
+print (re.search("[8,9]", "Senha"))
+
+
+import random
+numero_secreto= random.randint(1,100)
+
+print(numero_secreto)
