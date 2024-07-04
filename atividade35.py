@@ -1,3 +1,4 @@
+#35
 ponto_do_curso= input("insira seus pontos:")
 
 if ponto_do_curso < 0:

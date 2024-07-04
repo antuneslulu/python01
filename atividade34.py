@@ -1,3 +1,4 @@
+#34
 nome1 = input("Insira seu nome aqui:")
 sobrinhos_pato_donald1="luaninha"
 sobrinhos_pato_donald2="Salomezinha"
